@@ -15,3 +15,13 @@ data = {"name":"Rahees Khan",
         }
        
 In json data if you want to pass a boolean value then use small alphabates insted of True or False as we use in Python.
+
+TO RUN THE ABOVE CODE YOU HAVE TO RUN BOTH THE FLASK APPLICATION PARALLELY
+ERRORS:-
+        the error you will get if aother flask application is not running ie. another_route.py file is given below
+
+raise ConnectionError(e, request=request)        
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /second_route (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f239e5e07f0>: Failed to establish a new connection: [Errno 111] Connection refused',))        
+
+
+        
